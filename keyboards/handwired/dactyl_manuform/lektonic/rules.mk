@@ -15,3 +15,4 @@ SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = vendor
 EEPROM_DRIVER = wear_leveling
 WEAR_LEVELING_DRIVER = rp2040_flash
+KEYBOARD_SHARED_EP = yes    # https://github.com/qmk/qmk_firmware/issues/25835
